@@ -169,7 +169,7 @@ form progress {
 }
 
 form progress::-webkit-progress-bar {
-    background-color: #f4f4f4;
+    background-color: #4caf50;
 }
 
 form progress::-webkit-progress-value {
