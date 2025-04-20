@@ -1,3 +1,4 @@
+
 .contenant1{
     border: 1px solid #818181;
     box-shadow: 2px 2px #474747;
@@ -476,4 +477,48 @@ ul.liste1 li {
     letter-spacing: 2px; /* Espacement entre les lettres */
     border-bottom: 2px solid #4caf50; /* Ligne décorative en dessous */
     padding-bottom: 10px;
+}
+
+/* Style pour les téléphones*/
+@media (max-width: 768px) {
+     body {
+        font-size: 16px; /* Réduire légèrement la taille de la police */
+        padding: 10px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column; /* Empile les liens verticalement */
+        padding: 0;
+    }
+
+.navbar ul li {
+        margin: 5px 0;
+    }
+
+    .product-list {
+        display: grid;
+        grid-template-columns: 1fr; /* Une seule colonne pour les produits */
+        gap: 20px;
+    }
+
+    .product-item {
+        text-align: center;
+    }
+
+    .testimonial {
+        padding: 10px;
+        font-size: 14px; /* Réduire la taille des avis */
+    }
+
+.social-media a {
+        display: block; /* Empile les liens des réseaux sociaux */
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    #backToTop {
+        font-size: 14px; /* Réduire la taille du bouton */
+        padding: 8px 12px;
+    }
 }
