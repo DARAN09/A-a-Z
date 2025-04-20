@@ -33,10 +33,10 @@ document.getElementById("motdepasse").addEventListener("input", function() {
     const forceMotDePasse = document.getElementById("forceMotDePasse");
     let force = 0;
 
-    if (motdepasse.lenght >= 6) force += 25;
-    if (/[A-Z]/.test(motdepasse)) force += 25;
-    if (/[0-9]/.test(motdepasse)) force += 25;
-    if (/[@$!%*?&]/.test(motdepasse)) force += 25;
+    if (motdepasse.lenght >= 6) force += 8;
+    if (/[A-Z]/.test(motdepasse)) force += 8;
+    if (/[0-9]/.test(motdepasse)) force += 8;
+    if (/[@$!%*?&]/.test(motdepasse)) force += 8;
 
     forceMotDePasse.value = force;
 });
