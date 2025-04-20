@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+<link rel="stylesheet" href="formulaire.css">
+<script src="formulaire.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page1.html">Bagues</a></li>
+            <li><a href="page2.html">Piercings</a></li>
+            <li><a href="page4.html">Montres</a></li>
+            <li><a href="Formulaire.html">Inscription</a></li>
+        </ul>
+    </nav><br>
+    <h1>Formulaire d'inscription:</h1><br>
+    <form id="formInscription" onsubmit="return traiterFormulaire()">
+        <label for="nom">Nom :</label>
+        <div class="input-container">
+            <i class="fas fa-user"></i>
+        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom">
+</div>
+        <label for="email">Email :</label>
+        <div class="input-container">
+            <i class="fas fa-envelope"></i>
+        <input type="email" id="email" name="email" placeholder="Entrez votre email">
+</div>
+        <label for="motdepasse">Mot de passe :</label>
+        <div class="input-container">
+            <i class="fas fa-lock"></i>
+        <input type="password" id="motdepasse" name="motdepasse" placeholder="Entrez votre mot de passe">
+        </div><br><br>
+        <progress id="forceMotDePasse" value="0" max="100"></progress>
+        <label for="telephone">Téléphone :</label>
+        <div class="input-container">
+            <i class="fas fa-phone"></i>
+        
+        <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro de téléphone">
+</div>
+        <button type="submit">S'inscrire</button>
+    </form>
+    <p id="messageErreur" style="color: red;"></p><br><br>
+    <label>
+        <input type="checkbox" id="conditions" name="conditions">
+        J'accepte les <a href="#">conditions générales</a>
+    </label><br><br>
+
+</body>
+</html>

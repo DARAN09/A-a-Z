@@ -1,0 +1,162 @@
+body{
+    background-color: bisque;
+}
+#titre1{
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 25px;
+    background-color:pink;
+
+}
+#pa3{
+    font-size: 25px;
+}
+#p4{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+#p5{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+#p6{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+#p7{
+    font-size: 24px;
+    text-transform: capitalize;
+
+}
+#p8{
+    font-size: 23px;
+    text-transform: capitalize;
+    
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #4caf50;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.piercing-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-piercings {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-piercings h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.about-piercings p {
+    font-size: 16px;
+    color: #666;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+    margin: 10px 0;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.buy-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Couleur verte */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-button:hover {
+    background-color: #45a049; /* Couleur verte plus foncée au survol */
+    transform: scale(1.05); /* Légère mise en avant */
+}
+
+.buy-button:active {
+    transform: scale(0.95); /* Réduction légère lors du clic */
+}

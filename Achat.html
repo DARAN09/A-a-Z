@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achat produits</title>
+    <link rel="stylesheet" href="achat.css">
+    <scrypt src="achat.js"></scrypt>
+    <link rel="stylesheet" href="index.html">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page1.html">Bagues</a></li>
+            <li><a href="page2.html">Piercings</a></li>
+            <li><a href="page4.html">Montres</a></li>
+            <li><a href="Formulaire.html">Inscription</a></li>
+            <li><a href="page3.html">Tableau des Prix</a></li>
+        </ul>
+    </nav><br>
+
+    <h1>Finalisation de l'achat</h1>
+    <form id="formAchat" onsubmit="return validerAchat()">
+        <label for="nom">Nom complet :</label>
+        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom complet" required><br><br>
+
+        <label for="adresse">Adresse :</label>
+        <textarea id="adresse" name="adresse" placeholder="Entrez votre adresse complète" required></textarea><br><br>
+
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro de téléphone" required><br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre adresse email" required><br><br>
+
+        <label for="paiement">Mode de paiement :</label>
+        <select id="paiement" name="paiement" required>
+            <option value="carte">Carte bancaire</option>
+            <option value="paypal">PayPal</option>
+            <option value="virement">Virement bancaire</option>
+        </select><br><br>
+
+        <button type="submit">Confirmer l'achat</button>
+    </form>
+    <p id="confirmationMessage" style="display: none; color: green; font-weight: bold;">Merci pour votre achat !</p>
+    
+    <button id="backToHome" style="display: none;" onclick="window.location.href='index.html';">
+        Retour à l'accueil
+    </button>
+</body>
+</html>
