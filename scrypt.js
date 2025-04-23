@@ -1,6 +1,5 @@
 console.log("scrypt.js loaded");
 
-alert("Bienvenue sur mon site !");
 
 function toggleProduits() {
     const produits = document.getElementById("produits");
