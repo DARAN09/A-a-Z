@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: darkcyan;
 }
 #call1{
     text-align: center;
@@ -102,13 +102,13 @@ body{
 h3 {
     text-align: center; /* Centrer le texte */
     font-size: 28px; /* Augmenter la taille de la police */
-    color: #4caf50; /* Couleur verte pour attirer l'attention */
+    color: darkred; /* Couleur verte pour attirer l'attention */
     margin-bottom: 20px; /* Espacement en dessous */
     text-transform: uppercase; /* Mettre le texte en majuscules */
-    letter-spacing: 2px; /* Espacement entre les lettres */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
-    border-bottom: 2px solid #4caf50; /* Ligne décorative en dessous */
-    padding-bottom: 10px; /* Espacement sous le texte */
+    letter-spacing: 5.5px; /* Espacement entre les lettres */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
+    border-bottom: 2px solid darkturquoise; /* Ligne décorative en dessous */
+    padding-bottom: 15px; /* Espacement sous le texte */
 }
 
 h3 {
@@ -145,7 +145,7 @@ h3 {
 .about-watches {
     text-align: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: darkblue;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
