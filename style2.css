@@ -86,7 +86,7 @@ body{
 .piercing-section h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: darkred;
 }
 
 .about-piercings {
@@ -100,7 +100,7 @@ body{
 
 .about-piercings h2 {
     font-size: 24px;
-    color: #333;
+    color: darkred;
 }
 
 .about-piercings p {
