@@ -1,6 +1,4 @@
-body {
-    background-color: darkcyan !important;
-}
+
 .contenant1{
     border: 1px solid #818181;
     box-shadow: 2px 2px #474747;
@@ -477,6 +475,9 @@ ul.liste1 li {
     letter-spacing: 5px; /* Espacement entre les lettres */
     border-bottom: 3.5px solid #4caf50; /* Ligne décorative en dessous */
     padding-bottom: 20px;
+}
+body {
+    background-color: darkcyan;
 }
 
 /* Style pour les téléphones*/
