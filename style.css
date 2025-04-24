@@ -303,7 +303,7 @@ ul.liste1 li {
 .testimonials {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f9f9f9;
+    background-color: bisque;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -342,7 +342,7 @@ ul.liste1 li {
 .intro {
     text-align: center;
     padding: 50px 20px;
-    color: white;
+    color: whitesmoke;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-bottom: 20px;
@@ -360,7 +360,7 @@ ul.liste1 li {
 .about {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f9f9f9;
+    background-color: bisque;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -379,7 +379,7 @@ ul.liste1 li {
 #tete1 {
     text-align: center;
     font-size: 36px;
-    color: #4caf50; /* Couleur verte */
+    color: darkred; /* Couleur verte */
     margin-top: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre du texte */
     font-family: 'Arial', sans-serif;
@@ -391,13 +391,13 @@ ul.liste1 li {
 #tete2 {
     text-align: center;
     font-size: 28px;
-    color: #4caf50; /* Couleur verte */
+    color: darkred; /* Couleur verte */
     margin-top: 20px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Ombre légère */
     font-family: 'Arial', sans-serif;
     letter-spacing: 1px; /* Espacement entre les lettres */
-    border-top: 2px solid #4caf50; /* Ligne décorative au-dessus */
-    border-bottom: 2px solid #4caf50; /* Ligne décorative en dessous */
+    border-top: 2px solid darkcyan; /* Ligne décorative au-dessus */
+    border-bottom: 2px solid darkcyan; /* Ligne décorative en dessous */
     padding: 10px 0;
 }
 
@@ -419,7 +419,7 @@ ul.liste1 li {
 .products {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f9f9f9;
+    background-color: bisque;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -440,7 +440,7 @@ ul.liste1 li {
 .product-item {
     text-align: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: darkcyan;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -448,13 +448,13 @@ ul.liste1 li {
 
 .product-item h3 {
     font-size: 18px;
-    color: #4caf50;
+    color: darkred;
     margin-bottom: 10px;
 }
 
 .product-item p {
     font-size: 14px;
-    color: #666;
+    color: darkred;
 }
 
 .product-item:hover {
@@ -471,12 +471,12 @@ ul.liste1 li {
     text-align: center;
     font-size: 60px;
     font-family: 'Roboto', sans-serif; /* Utilise la police Roboto */
-    color: #4caf50; /* Couleur verte */
-    margin-top: 20px;
+    color: darkred; /* Couleur verte */
+    margin-top: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
-    letter-spacing: 2px; /* Espacement entre les lettres */
-    border-bottom: 2px solid #4caf50; /* Ligne décorative en dessous */
-    padding-bottom: 10px;
+    letter-spacing: 5px; /* Espacement entre les lettres */
+    border-bottom: 3.5px solid #4caf50; /* Ligne décorative en dessous */
+    padding-bottom: 20px;
 }
 
 /* Style pour les téléphones*/
