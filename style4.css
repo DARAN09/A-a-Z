@@ -153,13 +153,13 @@ h3 {
 
 .about-watches h2 {
     font-size: 24px;
-    color: #4caf50;
+    color: darkred;
     margin-bottom: 10px;
 }
 
 .about-watches p {
     font-size: 16px;
-    color: #555;
+    color: whitesmoke;
 }
 
 .testimonials {
