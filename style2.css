@@ -160,3 +160,14 @@ body{
 .buy-button:active {
     transform: scale(0.95); /* Réduction légère lors du clic */
 }
+h2 {
+    text-align: center; /* Centrer le texte */
+    font-size: 32px; /* Augmenter la taille de la police */
+    color: darkred; /* Couleur verte pour attirer l'attention */
+    margin-bottom: 25px; /* Espacement en dessous */
+    text-transform: uppercase; /* Mettre le texte en majuscules */
+    letter-spacing: 5.5px; /* Espacement entre les lettres */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
+    border-bottom: 3px solid darkred; /* Ligne décorative en dessous */
+    padding-bottom: 15px; /* Espacement sous le texte */
+}
