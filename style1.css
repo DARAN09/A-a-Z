@@ -7,7 +7,7 @@ border: 2px solid;
 text-align: center;  
 border-radius: 30px;
 padding: 25px;
-background-color: pink;
+background-color: darkred;
 font-size: 32px;
 
 
@@ -15,12 +15,12 @@ font-size: 32px;
 .F{
     list-style-type: upper-roman;
     font-size: 32px;
-    color: deeppink;
+    color: darkred;
 }
 .FF{
     list-style-type: upper-roman;
     font-size: 32px;
-    color: blue;
+    color: darkred;
 }
 #p1{
     text-align:left;
@@ -89,7 +89,7 @@ font-size: 32px;
 .about-bagues {
     text-align: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: bisque;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -97,7 +97,7 @@ font-size: 32px;
 
 #F {
     font-size: 32px;
-    color: deeppink;
+    color: darkred;
 }
 
 .testimonials {
