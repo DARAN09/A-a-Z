@@ -52,9 +52,7 @@ body {
     padding: 25px;
     box-shadow: 5px 5px;
 }
-body{
-    background-color: bisque;
-}
+
 .lst3{
     list-style-type: upper-alpha;
     color:black;
