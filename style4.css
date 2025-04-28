@@ -26,6 +26,14 @@ body{
     text-transform: capitalize;
 }
 
+.grid-item p {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 .navbar {
     background-color: #333;
     overflow: hidden;
