@@ -10,6 +10,15 @@ body{
     background-color:pink;
 
 }
+
+.grid-item p {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 #pa3{
     font-size: 25px;
 }
