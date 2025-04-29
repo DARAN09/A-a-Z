@@ -614,3 +614,21 @@ body {
 .left-section, .content {
     width: 100%; /* les sections prennent toute la largeur */;
 }
+
+.explore-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.explore-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Légère mise en avant */
+}
