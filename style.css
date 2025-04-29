@@ -530,7 +530,22 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+.content h2 {
+        font-size: 28px; /* Taille de la police */
+        color: #4caf50; /* Couleur verte */
+        text-align: center; /* Centrer le titre */
+        margin-bottom: 15px; /* Espacement en dessous */
+        text-transform: uppercase; /* Mettre le texte en majuscules */
+        letter-spacing: 2px; /* Espacement entre les lettres */
+    }
+    
+    .content p {
+        font-size: 16px; /* Taille de la police */
+        color: #555; /* Couleur du texte */
+        line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+        text-align: justify; /* Justifie le texte */
+        margin-top: 10px;
+    }
 
 
 /* Style pour les téléphones*/
