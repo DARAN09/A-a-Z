@@ -576,3 +576,11 @@ body {
         padding: 8px 12px;
     }
 }
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column; /* Affiche les sections l'une au-dessus de l'autre */
+    }
+}
+.left-section, .content {
+    width: 100%; /* les sections prennent toute la largeur */;
+}
