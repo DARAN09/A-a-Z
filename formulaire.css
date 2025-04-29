@@ -243,3 +243,18 @@ form {
         padding: 8px;
     }
 }
+
+.about-inscription {
+    text-align: center;
+    color: darkred;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+body {
+    background-color: darkcyan;
+}
