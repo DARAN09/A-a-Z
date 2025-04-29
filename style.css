@@ -521,6 +521,12 @@ body {
     color: #4caf50;
 }
 
+.left-section ul li:hover {
+    background-color: #f4f4f4; /* Change la couleur de fond au survol */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+    padding: 5px;
+}
+
 /* Section principale */
 .content {
     width: 75%; /* Largeur de la section principale */
