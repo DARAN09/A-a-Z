@@ -572,11 +572,5 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-@media (max-width: 768px) {
-    .main-container {
-        flex-direction: column; /* Affiche les sections l'une au-dessus de l'autre */
-    }
-}
-.left-section, .content {
-    width: 100%; /* les sections prennent toute la largeur */;
-}
+
+
