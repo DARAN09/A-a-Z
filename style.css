@@ -523,3 +523,60 @@ body {
         padding: 8px 12px;
     }
 }
+/* Conteneur principal */
+.main-container {
+    display: flex;
+    flex-direction: row; /* Affiche les sections côte à côte */
+    gap: 20px; /* Espacement entre les sections */
+    margin: 20px;
+}
+
+/* Section de gauche */
+.left-section {
+    width: 25%; /* Largeur de la section gauche */
+    background-color: #f4f4f4; /* Couleur de fond */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.left-section h3 {
+    font-size: 18px;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.left-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-section ul li {
+    margin-bottom: 10px;
+}
+
+.left-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.left-section ul li a:hover {
+    color: #4caf50;
+}
+
+/* Section principale */
+.content {
+    width: 75%; /* Largeur de la section principale */
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column; /* Affiche les sections l'une au-dessus de l'autre */
+    }
+}
+.left-section, .content {
+    width: 100%; /* les sections prennent toute la largeur */;
+}
