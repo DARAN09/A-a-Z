@@ -251,6 +251,7 @@ ul.liste1 li {
 .products {
     text-align: center;
     padding: 40px 20px;
+    background-color: azure;
 }
 
 .product-card {
