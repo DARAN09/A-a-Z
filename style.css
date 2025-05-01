@@ -373,7 +373,7 @@ ul.liste1 li {
 #tete1 {
     text-align: center;
     font-size: 36px;
-    color: whitesmoke; /* Couleur verte */
+    color: floralwhite; /* Couleur verte */
     margin-top: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre du texte */
     font-family: 'Arial', sans-serif;
@@ -465,7 +465,7 @@ ul.liste1 li {
     text-align: center;
     font-size: 60px;
     font-family: 'Roboto', sans-serif; /* Utilise la police Roboto */
-    color: whitesmoke; /* Couleur verte */
+    color: floralwhite; /* Couleur verte */
     margin-top: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
     letter-spacing: 5px; /* Espacement entre les lettres */
