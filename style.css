@@ -241,7 +241,7 @@ ul.liste1 li {
 .about {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f4f4f4;
+    background-color: azure;
     color: #333;
     margin: 20px 0;
     border-radius: 10px;
@@ -301,7 +301,7 @@ ul.liste1 li {
 .testimonials {
     text-align: center;
     padding: 40px 20px;
-    background-color: bisque;
+    background-color: azure;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -358,7 +358,7 @@ ul.liste1 li {
 .about {
     text-align: center;
     padding: 40px 20px;
-    background-color: bisque;
+    background-color: azure;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -377,7 +377,7 @@ ul.liste1 li {
 #tete1 {
     text-align: center;
     font-size: 36px;
-    color: darkred; /* Couleur verte */
+    color: whitesmoke; /* Couleur verte */
     margin-top: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre du texte */
     font-family: 'Arial', sans-serif;
@@ -438,7 +438,7 @@ ul.liste1 li {
 .product-item {
     text-align: center;
     padding: 20px;
-    background-color: darkcyan;
+    background-color: floralwhite;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -469,7 +469,7 @@ ul.liste1 li {
     text-align: center;
     font-size: 60px;
     font-family: 'Roboto', sans-serif; /* Utilise la police Roboto */
-    color: darkred; /* Couleur verte */
+    color: whitesmoke; /* Couleur verte */
     margin-top: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
     letter-spacing: 5px; /* Espacement entre les lettres */
@@ -477,7 +477,7 @@ ul.liste1 li {
     padding-bottom: 20px;
 }
 body {
-    background-color: darkcyan;
+    background-color: darkblue;
 }
 
 /* Conteneur principal */
@@ -491,14 +491,14 @@ body {
 /* Section de gauche */
 .left-section {
     width: 25%; /* Largeur de la section gauche */
-    background-color: #f4f4f4; /* Couleur de fond */
+    background-color: azure; /* Couleur de fond */
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .left-section h3 {
     font-size: 18px;
-    color: #4caf50;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -531,7 +531,7 @@ body {
 .content {
     width: 75%; /* Largeur de la section principale */
     padding: 15px;
-    background-color: #fff;
+    background-color: azure;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
