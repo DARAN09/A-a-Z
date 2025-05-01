@@ -160,7 +160,7 @@ font-size: 32px;
 h3#Femme, h3#Homme {
     text-align: center; /* Centre le texte horizontalement */
     font-size: 24px; /* Taille de la police */
-    color: #4caf50; /* Couleur verte pour le texte */
+    color: lime; /* Couleur verte pour le texte */
     margin-bottom: 20px; /* Espacement en dessous */
     text-transform: uppercase; /* Met le texte en majuscules */
     letter-spacing: 1px; /* Espacement entre les lettres */
