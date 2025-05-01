@@ -638,3 +638,31 @@ body {
     background-color: #45a049;
     transform: scale(1.05); /* Légère mise en avant */
 }
+
+.inscription-item {
+    margin: 10px 0; /* Espacement vertical */
+    display: inline-block; /* Permet de styliser comme un bouton */
+}
+
+.inscription-item a {
+    display: inline-flex; /* Aligne l'icône et le texte */
+    align-items: center; /* Centre verticalement l'icône et le texte */
+    padding: 10px 20px; /* Espacement interne */
+    background-color: #4caf50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    font-weight: bold; /* Texte en gras */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animation */
+}
+
+.inscription-item a i {
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+    font-size: 18px; /* Taille de l'icône */
+}
+
+.inscription-item a:hover {
+    background-color: #45a049; /* Couleur au survol */
+    transform: scale(1.05); /* Légère mise en avant */
+}
