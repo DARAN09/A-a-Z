@@ -1,5 +1,5 @@
 body{
-    background-color: darkcyan;
+    background-color: darkblue;
 }
 #call{
     color: black;
@@ -10,18 +10,8 @@ padding: 25px;
 background-color: darkred;
 font-size: 32px;
 
+}
 
-}
-.F{
-    list-style-type: upper-roman;
-    font-size: 32px;
-    color: darkred;
-}
-.FF{
-    list-style-type: upper-roman;
-    font-size: 32px;
-    color: darkred;
-}
 #p1{
     text-align:left;
     font-size: 26px;
@@ -89,21 +79,16 @@ font-size: 32px;
 .about-bagues {
     text-align: center;
     padding: 20px;
-    background-color: bisque;
+    background-color: azure;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#F {
-    font-size: 32px;
-    color: darkred;
-}
-
 .testimonials {
     text-align: center;
     padding: 20px;
-    background-color: #fff3e0;
+    background-color: azure;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -125,7 +110,7 @@ font-size: 32px;
 .page-header {
     text-align: center;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: azure;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -170,4 +155,13 @@ font-size: 32px;
 
 .buy-button:active {
     transform: scale(0.95); /* Réduction légère lors du clic */
+}
+
+h3#Femme, h3#Homme {
+    text-align: center; /* Centre le texte horizontalement */
+    font-size: 24px; /* Taille de la police */
+    color: #4caf50; /* Couleur verte pour le texte */
+    margin-bottom: 20px; /* Espacement en dessous */
+    text-transform: uppercase; /* Met le texte en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
 }
