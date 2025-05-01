@@ -248,11 +248,6 @@ ul.liste1 li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.products {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: azure;
-}
 
 .product-card {
     display: inline-block;
