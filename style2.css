@@ -1,5 +1,5 @@
 body{
-    background-color: darkcyan;
+    background-color: darkblue;
 }
 #titre1{
     text-align: center;
@@ -95,13 +95,14 @@ body{
 .piercing-section h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: darkred;
+    color: lime;
+     border-bottom: 3px solid lime;
 }
 
 .about-piercings {
     text-align: center;
     padding: 20px;
-    background-color: bisque;
+    background-color: azure;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -109,7 +110,7 @@ body{
 
 .about-piercings h2 {
     font-size: 24px;
-    color: darkred;
+    color: black;
 }
 
 .about-piercings p {
@@ -120,7 +121,7 @@ body{
 .testimonials {
     text-align: center;
     padding: 20px;
-    background-color: #fff3e0;
+    background-color: azure;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -172,7 +173,7 @@ body{
 h2 {
     text-align: center; /* Centrer le texte */
     font-size: 32px; /* Augmenter la taille de la police */
-    color: darkred; /* Couleur verte pour attirer l'attention */
+    color: black; /* Couleur verte pour attirer l'attention */
     margin-bottom: 25px; /* Espacement en dessous */
     text-transform: uppercase; /* Mettre le texte en majuscules */
     letter-spacing: 5.5px; /* Espacement entre les lettres */
