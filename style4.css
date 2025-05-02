@@ -28,8 +28,8 @@ body{
 
 .grid-item p {
     text-align: center;
-    font-size: 16px;
-    color: black;
+    font-size: 20px;
+    color: ghostwhite;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -209,4 +209,10 @@ h3 {
 
 #backToTop:hover {
     background-color: #45a049;
+}
+
+.grid-item p:hover {
+    color: lime; /* Change la couleur au survol */
+    transform: scale(1.1); /* Agrandit légèrement le texte */
+    transition: transform 0.3s ease, color 0.3s ease; /* Animation fluide */
 }
