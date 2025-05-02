@@ -106,7 +106,10 @@ ul li {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: black;
-    color: white;
+    background-color: limegreen;
+    color: black;
     margin-top: 20px;
+}
+footer p {
+    text-align: center
 }
