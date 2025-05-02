@@ -1,0 +1,112 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+}
+
+/* Header */
+header {
+    background-color: #4caf50; /* Couleur de fond du header */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar ul li {
+    margin: 0 15px;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header .navbar ul li a:hover {
+    color: #f1f1f1;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h1, h2 {
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Paragraphes */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Listes */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Bouton "Lire les conditions complètes" */
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.read-more:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
