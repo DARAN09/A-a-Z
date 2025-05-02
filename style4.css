@@ -1,5 +1,5 @@
 body{
-    background-color: darkcyan;
+    background-color: darkblue;
 }
 #call1{
     text-align: center;
@@ -110,12 +110,12 @@ body{
 h3 {
     text-align: center; /* Centrer le texte */
     font-size: 28px; /* Augmenter la taille de la police */
-    color: darkred; /* Couleur verte pour attirer l'attention */
+    color: lime; /* Couleur verte pour attirer l'attention */
     margin-bottom: 20px; /* Espacement en dessous */
     text-transform: uppercase; /* Mettre le texte en majuscules */
     letter-spacing: 5.5px; /* Espacement entre les lettres */
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
-    border-bottom: 2px solid darkturquoise; /* Ligne décorative en dessous */
+    border-bottom: 2px solid limegreen; /* Ligne décorative en dessous */
     padding-bottom: 15px; /* Espacement sous le texte */
 }
 
@@ -153,7 +153,7 @@ h3 {
 .about-watches {
     text-align: center;
     padding: 20px;
-    background-color: darkblue;
+    background-color: azure;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -161,19 +161,19 @@ h3 {
 
 .about-watches h2 {
     font-size: 24px;
-    color: darkred;
+    color: black;
     margin-bottom: 10px;
 }
 
 .about-watches p {
     font-size: 16px;
-    color: whitesmoke;
+    color: black;
 }
 
 .testimonials {
     text-align: center;
     padding: 20px;
-    background-color: #fff3e0;
+    background-color: azure;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
