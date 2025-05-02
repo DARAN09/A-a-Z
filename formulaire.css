@@ -324,3 +324,26 @@ body {
         transform: translateY(0);
     }
 }
+
+.accept-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none;
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.accept-button:hover {
+    background-color: #45a049; /* Couleur au survol */
+    transform: scale(1.05); /* Légère mise en avant */
+}
+
+.accept-button:active {
+    transform: scale(0.95); /* Réduction légère au clic */
+    background-color: #3e8e41;
+}
