@@ -4,13 +4,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Couleur de fond */
+    background-color: darkblue; /* Couleur de fond */
     color: #333; /* Couleur du texte */
 }
 
 /* Header */
 header {
-    background-color: #4caf50; /* Couleur de fond du header */
+    background-color: limegreen; /* Couleur de fond du header */
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
