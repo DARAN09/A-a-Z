@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: darkblue;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -109,7 +109,7 @@ input:focus {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: darkblue;
     margin: 0;
     padding: 0;
 }
@@ -246,9 +246,9 @@ form {
 
 .about-inscription {
     text-align: center;
-    color: darkred;
+    color: floralwhite;
     padding: 20px;
-    background-color: bisque;
+    background-color: floralwhite;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -256,5 +256,5 @@ form {
 }
 
 body {
-    background-color: darkcyan;
+    background-color: darkblue;
 }
