@@ -41,3 +41,7 @@ document.getElementById("motdepasse").addEventListener("input", function() {
     forceMotDePasse.value = force;
 });
 
+document.querySelector('.accept-button').addEventListener('click', function () {
+    alert('Merci d\'avoir accepté les conditions générales.');
+    // Vous pouvez également activer un formulaire ou rediriger l'utilisateur ici.
+});
