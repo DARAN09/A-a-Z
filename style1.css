@@ -174,7 +174,7 @@ h3#Femme, h3#Homme {
 }
 
 .grid-item p:hover {
-    color: #4caf50; /* Change la couleur au survol */
+    color: lime; /* Change la couleur au survol */
     transform: scale(1.1); /* Agrandit légèrement le texte */
     transition: transform 0.3s ease, color 0.3s ease; /* Animation fluide */
 }
