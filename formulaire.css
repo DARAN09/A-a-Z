@@ -258,3 +258,69 @@ form {
 body {
     background-color: darkblue;
 }
+
+.terms-and-conditions {
+    background-color: #f9f9f9; /* Couleur de fond claire */
+    padding: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    font-family: Arial, sans-serif;
+}
+
+.terms-and-conditions h2 {
+    font-size: 24px; /* Taille de la police */
+    color: #4caf50; /* Couleur verte */
+    text-align: center; /* Centre le titre */
+    margin-bottom: 15px;
+    text-transform: uppercase; /* Met le texte en majuscules */
+}
+
+.terms-and-conditions p {
+    font-size: 16px;
+    color: #555; /* Couleur du texte */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.terms-and-conditions ul {
+    list-style: disc; /* Style des puces */
+    margin-left: 20px; /* Décalage des puces */
+    color: #333;
+}
+
+.terms-and-conditions ul li {
+    margin-bottom: 10px; /* Espacement entre les éléments */
+    font-size: 16px;
+}
+
+.terms-and-conditions .read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.terms-and-conditions .read-more:hover {
+    background-color: #45a049; /* Couleur au survol */
+    transform: scale(1.05); /* Légère mise en avant */
+}
+
+.terms-and-conditions {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
