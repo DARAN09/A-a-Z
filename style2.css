@@ -13,8 +13,8 @@ body{
 
 .grid-item p {
     text-align: center;
-    font-size: 16px;
-    color: black;
+    font-size: 20px;
+    color: ghostwhite;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -180,4 +180,10 @@ h2 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
     border-bottom: 3px solid darkred; /* Ligne décorative en dessous */
     padding-bottom: 15px; /* Espacement sous le texte */
+}
+
+.grid-item p:hover {
+    color: lime; /* Change la couleur au survol */
+    transform: scale(1.1); /* Agrandit légèrement le texte */
+    transition: transform 0.3s ease, color 0.3s ease; /* Animation fluide */
 }
