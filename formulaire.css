@@ -326,10 +326,10 @@ body {
 }
 
 .accept-button {
-    display: inline-block;
-    margin-top: 20px;
+    display: block; /* Transforme le bouton en bloc pour le centrer */
+    margin: 20px auto; /* Centre horizontalement et ajoute un espacement vertical */
     padding: 10px 20px;
-    background-color: #4caf50; /* Couleur de fond */
+    background-color: limegreen; /* Couleur de fond */
     color: white; /* Couleur du texte */
     border: none;
     border-radius: 5px; /* Coins arrondis */
@@ -346,4 +346,17 @@ body {
 .accept-button:active {
     transform: scale(0.95); /* Réduction légère au clic */
     background-color: #3e8e41;
+}
+
+.accept-button {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
